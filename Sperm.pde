@@ -77,14 +77,14 @@ class Sperm {
     }
   }
 
-  /*chooses dot from the population to return
+  /*chooses a spermatozoid from the population to return
   randomly(considering fitness) : this function
   works by randomly choosing a value between 0
   and the sum of all the fitnesses
-  then go through all the dots and add
+  then goes through all the spermatozoids and adds
   their fitness to a running sum and if that
   sum is greater than the random value generated
-  that dot is chosen. Since dots with a higher
+  that spermatozoid is chosen. Since spermatozoids with a higher
   fitness function add more to the running sum
   they have a higher chance of being chosen*/
   Spermatozoid selectParent() {
